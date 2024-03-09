@@ -271,6 +271,11 @@ h2,
     font-size: 1rem;
     line-height: 1.6;
 }
+@media only screen and (max-width: 768px) {
+    .testimonial-item {
+        flex: 0 0 calc(100% - 40px);
+    }
+}
 .statistics {
     background-color: #f9f9f9;
     padding: 12px 0;
@@ -463,7 +468,7 @@ h2,
 /* Media Query for Tablets and Smaller Screens */
 @media only screen and (max-width: 768px) {
     .news-item {
-        flex-direction: column;
+        flex-direction:column;
     }
 
     .news-details {
@@ -560,4 +565,13 @@ button:hover {
 .footer-bottom {
     margin-top: 20px;
     text-align: center;
+}
+@media only screen and (max-width: 768px) {
+    .footer-logo img {
+        margin-bottom: 10px;
+    }
+
+    .footer-info {
+        max-width: 55%;
+    }
 }
