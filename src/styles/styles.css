@@ -227,7 +227,7 @@
 }
 .testimonials {
     background-color: #efe1e1;
-    padding: 20px 0;
+    padding: 50px 0;
     justify-content: space-around;
 }
 
@@ -278,34 +278,33 @@ h2,
 }
 .statistics {
     background-color: #f9f9f9;
-    padding: 12px 0;
-    margin: 1px;
+    padding: 10px 0;
+    
     text-align: center;
     width: 100%;
 }
 
 .statistics h2 {
-    font-size: 2.5rem;
-        margin-top: 1px;
-    margin-bottom: 10px;
+    font-size: 2.3rem;
+        margin-top: 35px;
+    margin-bottom: 1px;
 }
 
 .statistics p {
     font-size: 1.3rem;
+ margin-top: 20px;
     color: #555;
-    margin-bottom: 40px;
 }
 
 
 .stats-item {
     display: flex;
     justify-content:space-evenly;
-    flex-wrap: wrap;
-}
+        margin-top: 35px;}
 
 .stat {
     margin: 20px;
-    padding: 60px;
+    padding: 9px;
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     background-color: #fff;
@@ -324,14 +323,14 @@ h2,
     padding: 1px;}
 
 .stat h3 {
-    margin-top: 20px;
+    margin-top: 50px;
     font-size: 1.7rem;
 }
 
 .stat p{
     color:#FB679F;
-    margin-top: 9px;
-    margin-bottom: 15px;
+    margin-top: 30px;
+    margin-bottom: 10px;
     font-size:30px;
 }
 
@@ -343,6 +342,7 @@ h2,
 
 .about-company h2 {
     font-size: 2.1rem;
+        margin-top: 30px;
     margin-bottom: 30px;
 }
 
