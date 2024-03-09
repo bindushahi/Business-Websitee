@@ -15,6 +15,27 @@ const Carousel = () => {
     pauseOnHover: false, 
   };
 
+// Adjust settings for responsive design
+  const responsiveSettings = [
+    {
+      breakpoint: 992, // screen width 992px and below
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      },
+    },
+    {
+      breakpoint: 768, // screen width 768px and below
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      },
+    },
+  ];
+
+  Object.assign(settings, { responsive: responsiveSettings });
+
+
   return (
     <div className="custom-carousel">
       <Slider {...settings}>

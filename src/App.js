@@ -16,6 +16,7 @@ function App() {
       <Header />
       <Carousel/>
       <Testimonials/>
+      <Statistics/>
     </div>
   );
 }
