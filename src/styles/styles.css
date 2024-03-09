@@ -328,3 +328,41 @@ h2,
     margin-bottom: 15px;
     font-size:30px;
 }
+
+.about-company {
+    background-color: #f9f9f9;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.about-company h2 {
+    font-size: 2.1rem;
+    margin-bottom: 30px;
+}
+
+.about-company p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.about-company .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.about-company .company-image {
+    flex: 0 0 calc(33.333% - 40px);
+    max-width: calc(33.333% - 40px);
+    margin: 20px;
+    box-sizing: border-box;
+}
+
+.about-company .company-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
