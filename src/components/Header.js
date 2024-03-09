@@ -1,5 +1,5 @@
 import React from "react";
-import '../styles/Header.css'; 
+import '../styles/styles.css'; 
 
 const Header = () => {
   return (
@@ -9,7 +9,7 @@ const Header = () => {
         <div className="container">
           <div className="logo">
             <a href="/">
-              <img src="./logo.PNG" alt="Company Logo" />
+              <img src="./resources/logo.PNG" alt="Company Logo" />
             </a>
             <button
               type="button"

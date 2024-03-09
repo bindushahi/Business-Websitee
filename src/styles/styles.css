@@ -1,3 +1,8 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+
+
 .navbar {
     position: fixed;
     top: 0;
@@ -110,7 +115,7 @@
 }
 
 .header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(../assets/bg.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(../../public/assets/bg.jpg);
     min-height: 100vh;
     background-position: center;
     background-size: cover;
@@ -195,4 +200,85 @@
         margin-right: auto;
 
     }
+}
+.custom-carousel .item {
+    width: 100%;
+    flex: 0 0 auto;
+    transition: transform 0.5s ease;
+    position: relative;
+    /* Add this line */
+}
+
+.custom-carousel img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    /* Add this line */
+}
+
+.custom-carousel .carousel-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.custom-carousel .carousel-content h2 {
+    color: #fff;
+}
+
+.custom-carousel .item {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.testimonials {
+    background-color: #efe1e1;
+    padding: 20px 0;
+    justify-content: space-around;
+}
+
+.testimonial-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.testimonial-item {
+    background-color: #dad0d0;
+    margin: 30px;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    flex: 0 0 calc(30% - 60px);
+    box-sizing: border-box;
+}
+
+.testimonial-item img {
+    width: 100%;
+    max-height: 200px;
+    border-radius: 20%;
+    margin-bottom: 10px;
+}
+
+.testimonial-item h3,
+h2,
+.testimonial-item p {
+    color: #333;
+    text-align: center;
+}
+
+.testimonial-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.testimonial-item p {
+    font-size: 1rem;
+    line-height: 1.6;
 }
