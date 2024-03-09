@@ -2,6 +2,7 @@ import React from "react";
 import CountUp from "react-countup";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUsers, faTasks, faCubes } from "@fortawesome/free-solid-svg-icons";
+import "../styles/styles.css";
 
 const Statistics = () => {
   return (

@@ -18,6 +18,9 @@ function App() {
       <Testimonials/>
       <Statistics/>
       <AboutCompany/>
+      <NewsSection/>
+      <InquiryForm/>
+      <Footer/>
     </div>
   );
 }
