@@ -7,13 +7,12 @@
     box-sizing: border-box;
     font-family: 'poppins', sans-serif;
 }
-
 .navbar {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #f4f5f5;
+    background-color: #d3dbdb;
     z-index: 1000;
 }
 
@@ -63,8 +62,6 @@
 .nav-link:hover {
     color: #FB679F;
 }
-
-
 
 .hero-div {
     text-align: center;
@@ -118,7 +115,6 @@
     background-color: #FB679F;
 
 }
-
 .header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(../../public/assets/bg.jpg);
     min-height: 100vh;
@@ -132,50 +128,47 @@
     justify-content: center;
     align-items: center;
 }
-
-
-@media screen and (min-width:992px) {
-
-    .navbar {
-        background: transparent;
-        margin-top: 1.4rem;
-    }
-
-
-    .navbar .container {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-
-    .navbar-logo {
-        color: var(--white-smoke);
-        font-size: 2rem;
-    }
-
-    .navbar-toggler {
-        display: none;
-    }
-
-    .nav-menu {
-        display: block !important;
-        color: white;
-    }
-
-    .nav-menu ul {
-        display: flex;
-
-    }
-
-    .nav-menu li {
-        margin-left: 1.8rem;
-
-    }
-
-    .nav-link {
-        color: rgb(250, 235, 235);
-    }
-
+/*desktop mode ko lagi navbar fix*/
+@media screen and (min-width: 992px) {
+        .navbar {
+                background: transparent;
+                margin-top: 1.4rem;
+            }
+        
+        
+            .navbar .container {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+        
+            .navbar-logo {
+                color: var(--white-smoke);
+                font-size: 2rem;
+            }
+        
+            .navbar-toggler {
+                display: none;
+            }
+        
+            .nav-menu {
+                display: block !important;
+                color: rgb(17, 16, 16);
+            }
+        
+            .nav-menu ul {
+                display: flex;
+        
+            }
+        
+            .nav-menu li {
+                margin-left: 1.8rem;
+        
+            }
+        
+            .nav-link {
+                color: rgb(250, 235, 235);
+            }
     .hero-div h1 {
         font-size: 3.8rem;
     }
@@ -184,42 +177,34 @@
         display: inline-block;
         margin-right: 0.8rem;
     }
-
-    /*navbarchanges*/
-    .cng-navbar {
-        -webkit-box-shadow: 0 2px 5px 0 rgba(224, 213, 224, 0.3);
-        -moz-box-shadow: 0 2px 5px 0 rgba(199, 178, 199, 0.3);
-        margin-top: 0;
-        background: #f4f5f5
-    }
-
-    .cng-navbar .nav-link {
-        color: rgb(62, 61, 61);
-    }
+}
+.header.scrolling .navbar {
+    background-color: #f4f5f5;
+    margin-top: 0px;
 }
 
-@media screen and (min-width:1200px) {
+.header.scrolling .navbar .nav-link {
+    color: #000;
+}
+@media screen and (min-width: 1200px) {
     .hero-div h1 {
-        width: 70%;
+        width: 80%;
         margin-left: auto;
         margin-right: auto;
-
     }
 }
 .custom-carousel .item {
     width: 100%;
-    flex: 0 0 auto;
+    flex:0 0 auto;
     transition: transform 0.5s ease;
     position: relative;
-    /* Add this line */
 }
 
 .custom-carousel img {
     width: 100%;
     height: auto;
-    border-radius: 8px;
-    object-fit: cover;
-    /* Add this line */
+    border-radius: 9px;
+    object-fit:fill;
 }
 
 .custom-carousel .carousel-content {
