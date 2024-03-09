@@ -1,0 +1,198 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f4f5f5;
+    z-index: 1000;
+}
+
+.logo {
+    justify-content: space-between;
+    display: flex;
+}
+
+
+.logo img {
+    width: 100px;
+    height: auto;
+    padding-right: 20px;
+    margin-top: 2px;
+    margin-left: 30px;
+}
+
+.navbar-toggler {
+    border: none;
+    background-color: transparent;
+    font-size: 27px;
+    margin-right: 30px;
+}
+
+.nav-menu {
+    display: none;
+}
+
+.nav-menu ul {
+    list-style: none;
+    /* display: flex; */
+}
+
+.nav-menu li {
+    margin-right: 20px;
+    margin-left: 38px;
+    padding: 10px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: rgb(22, 21, 21);
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #FB679F;
+}
+
+
+
+.hero-div {
+    text-align: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.hero-div h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero-div p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.hero-btn {
+    margin-top: 40px;
+
+
+}
+
+.hero-btn button {
+    border: 3.5px solid pink;
+    border-radius: 2rem;
+    padding: 0.8rem 2rem;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-trans {
+    transition: var(--transition);
+    /* display: none; */
+
+}
+
+.btn-trans:hover {
+    background-color: #FB679F;
+}
+
+.btn-white {
+    padding: 10px 20px;
+    transition: var(--transition);
+}
+
+
+.btn-white:hover {
+    background-color: #FB679F;
+
+}
+
+.header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(../assets/bg.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media screen and (min-width:992px) {
+
+    .navbar {
+        background: transparent;
+        margin-top: 1.4rem;
+    }
+
+
+    .navbar .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .navbar-logo {
+        color: var(--white-smoke);
+        font-size: 2rem;
+    }
+
+    .navbar-toggler {
+        display: none;
+    }
+
+    .nav-menu {
+        display: block !important;
+        color: white;
+    }
+
+    .nav-menu ul {
+        display: flex;
+
+    }
+
+    .nav-menu li {
+        margin-left: 1.8rem;
+
+    }
+
+    .nav-link {
+        color: rgb(250, 235, 235);
+    }
+
+    .hero-div h1 {
+        font-size: 3.8rem;
+    }
+
+    .btn-trans {
+        display: inline-block;
+        margin-right: 0.8rem;
+    }
+
+    /*navbarchanges*/
+    .cng-navbar {
+        -webkit-box-shadow: 0 2px 5px 0 rgba(224, 213, 224, 0.3);
+        -moz-box-shadow: 0 2px 5px 0 rgba(199, 178, 199, 0.3);
+        margin-top: 0;
+        background: #f4f5f5
+    }
+
+    .cng-navbar .nav-link {
+        color: rgb(62, 61, 61);
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .hero-div h1 {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+}
