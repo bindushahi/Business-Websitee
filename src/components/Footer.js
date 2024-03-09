@@ -23,26 +23,17 @@ const Footer = () => {
             {/* Social Media Icons */}
             <ul className="social-icons">
               <li>
-                <a
-                  href="/"
-                  target="_blank">
+                <a href="/" target="_blank">
                   <FontAwesomeIcon icon={faFacebookF} />
                 </a>
               </li>
               <li>
-                <a
-                  href="/"
-                  target="_blank"
-                
-                >
+                <a href="/" target="_blank">
                   <FontAwesomeIcon icon={faTwitter} />
                 </a>
               </li>
               <li>
-                <a
-                  href="/"
-                  target="_blank"
-                >
+                <a href="/" target="_blank">
                   <FontAwesomeIcon icon={faInstagram} />
                 </a>
               </li>

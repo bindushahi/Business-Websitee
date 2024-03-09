@@ -6,6 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'poppins', sans-serif;
+        overflow-x: hidden;
 }
 .navbar {
     position: fixed;
@@ -553,7 +554,7 @@ button:hover {
 }
 
 .footer-links .social-icons a:hover {
-    color: #3498db !important;
+    color: #3498db;
 }
 
 .footer-bottom {
